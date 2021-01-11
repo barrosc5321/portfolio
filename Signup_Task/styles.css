@@ -1,0 +1,194 @@
+.window {
+  height: 800px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+.box1 {
+  background-color: #f3d083;
+  position: relative;
+  height: 100%;
+  flex: 1;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.box2 {
+  background-color: white;
+  position: relative;
+  height: 100%;
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.Sign-in {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+  position: absolute;
+  padding: 25px;
+  background-color: white;
+  height: 50%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+.form-row {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  height: fit-content;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form-spacer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.form-line {
+  background-color: #dfdfdf;
+  height: 1px;
+  width: 45%;
+  border-radius: 2px;
+}
+.or {
+  font-size: 14px;
+  color: #a8a8a8;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.large-button {
+  position: relative;
+  color: white;
+  background-color: #4285f4;
+  flex: 3;
+}
+.password {
+  color: #747474;
+}
+.small-button {
+  flex: 0.5;
+}
+
+.agreement {
+  font-size: 10px;
+  margin: 7px;
+  color: #747474;
+}
+.signup-button {
+  border: none;
+  border-radius: 3px;
+  border: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.create-button {
+  width: 50%;
+  background-color: #ea4c89;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: fit-content;
+  padding: 5px;
+}
+.large-picture {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  height: 350px;
+  width: 390px;
+}
+.Ultramar {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  color: #835f0e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-box {
+  width: 100%;
+  height: 30px;
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  border: 3px;
+  border-color: black;
+}
+.text-box:placeholder {
+  color: #a8a8a8;
+}
+.footer {
+  color: #d8d8d8;
+  position: absolute;
+  bottom: 10px;
+  font-size: 11px;
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.margin-right-a {
+  margin-right: 15px;
+}
+.margin-right-b {
+  margin-right: 5px;
+}
+.margin-top {
+  margin-top: 10px;
+}
+
+#artist {
+  text-decoration: underline;
+  color: #835f0e;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #99c3db;
+}
+h1 {
+  font-family: "pacifico", monospace;
+  color: #835f0e;
+}
+h2 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #835f0e;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.small-image {
+  height: 15px;
+  width: 15px;
+}
+.g-logo {
+  position: absolute;
+  left: 10px;
+}

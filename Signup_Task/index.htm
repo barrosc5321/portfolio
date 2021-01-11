@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="window">
+        <div class="box1">
+          <h1>dribbble</h1>
+          <h2>Discover the world's top Designers & Creatives.</h2>
+          <img
+            src="web_design.png"
+            class="large-picture"
+            alt="Crafty Webpage pic"
+          />
+          <p class="Ultramar">
+            Art by <a href="#" id="artist">Robute Guilliman</a>
+          </p>
+        </div>
+        <div class="box2">
+          <p class="Sign-in">Already a member? <a href="#"> Sign in</a></p>
+          <div class="form">
+            <form>
+              <div class="form-item">
+                <h3 class="Sign-up">Sign Up to Dribbble</h3>
+              </div>
+              <div class="form-row">
+                <button
+                  type="button"
+                  class="large-button signup-button margin-right-b"
+                >
+                  <img
+                    src="G-logo.png"
+                    class="margin-right-b small-image g-logo"
+                  />Sign up with Google
+                </button>
+                <button
+                  type="button"
+                  class="small-button signup-button margin-right-b"
+                >
+                  <img src="clipart2540548.png" class="small-image" />
+                </button>
+                <button type="button" class="small-button signup-button">
+                  <img src="fb_logo.png" class="small-image" />
+                </button>
+              </div>
+              <div class="form-row">
+                <div class="form-spacer">
+                  <div class="form-line"></div>
+                  <p class="or">Or</p>
+                  <div class="form-line"></div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-item margin-right-a">
+                  <!--Full name starts here-->
+                  <label for="full-name">Full Name</label>
+                  <div>
+                    <input
+                      type="text"
+                      class="text-box"
+                      id="full-name"
+                      name="form"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-item">
+                  <!--User name starts here-->
+                  <label for="username">Username</label>
+                  <div>
+                    <input
+                      type="text"
+                      class="text-box"
+                      id="username"
+                      name="form"
+                      required
+                    />
+                  </div>
+                </div>
+                <!--end-->
+              </div>
+              <div class="form-row">
+                <div class="form-item">
+                  <label for="email" class="margin-top">E-mail</label>
+                  <div>
+                    <input
+                      type="email"
+                      class="text-box"
+                      id="email"
+                      name="form"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-item">
+                  <label for="password" class="margin-top">Password</label>
+                  <div>
+                    <!--Copied this from stack overflow with minor edits.-->
+                    <input
+                      name="form"
+                      class="text-box"
+                      id="password"
+                      onfocus="if (this.value=='6+ characters') this.value = ''"
+                      type="text"
+                      value="6+ characters"
+                      required
+                    /><!--Copied this from stack overflow with minor edits-->
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <input type="checkbox" name="form" />
+                <label for="agreement" class="agreement" required
+                  >Creating an account means you agree with our
+                  <a href="#">Terms of Service</a>,<a href="#"
+                    >Privacy Policy</a
+                  >
+                  and our default <a href="#">Notification Settings.</a></label
+                >
+              </div>
+              <div class="form-row">
+                <button type="button" class="create-button" name="form">
+                  Create account
+                </button>
+              </div>
+            </form>
+          </div>
+          <p class="footer">
+            This site is protected by reCAPTCHA and the Google
+            <a href="#">Privacy Policy</a> and
+            <a href="#">Terms of Service</a> apply.
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
